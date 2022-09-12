@@ -1,0 +1,51 @@
+body{
+    background-color: lightgrey;
+}
+
+button{
+    background-color: darkblue;
+    border-radius: 10px;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+.main-container{
+    background-color: darkblue;
+    border-radius: 20px;
+    max-width: 500px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+    border-color: white;
+}
+
+.score-owner{
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.score-style{
+    background-color: black;
+    color: #F94F6D;
+    text-align: center;
+    font-family: Cursed Timer ULiL;
+    padding: 20px;
+
+}
+
+#highScore{
+    color: yellow;
+}
+
+@font-face { 
+    font-family: "Tecnology"; 
+     /* IE */
+     src: "Tecnology.ttf";
+     /* IE */
+ 
+     /* Not IE */
+     src: local("Tecnology"), "Tecnology.ttf";
+     
+     /* Not IE */
+ }
